@@ -97,18 +97,16 @@
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<div  itemscope itemtype="https://schema.org/Organization">
-				<p>
-					<span itemprop="email">contact@lachouetteagence.com</span> 
-					<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-						<span itemprop="streetAddress"><p>2 place Sathonay</span>
-						<span itemprop="postalCode">69001</span>
-						<span itemprop="addressLocality">Lyon</span>
-					</div>
-					<div itemscope itemtype="https://schema.org/LocalBusiness">
-						<span itemprop="openingHours" content="Mo,Tu,We,Th,Fr 09:00-18:00"><p>Ouvert de 9h à 18h, du lundi au vendredi</span>
-					</div>
-				</p>
+				<div itemscope itemtype="https://schema.org/LocalBusiness">
+					<p>
+						<span itemprop="email">contact@lachouetteagence.com</span><br>
+						<span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+							<span itemprop="streetAddress">2 place Sathonay</span>
+							<span itemprop="postalCode">69001</span>
+							<span itemprop="addressLocality">Lyon</span><br>
+						</span>
+						<span itemprop="openingHours" content="Mo,Tu,We,Th,Fr 09:00-18:00">Ouvert de 9h à 18h, du lundi au vendredi</span>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -159,12 +157,19 @@
 
 </div>
 <!-- Principal conteneur END -->
-    
 
-</body>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178253385-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-178253385-1');
+</script>
 <script src="./js/jquery-2.1.0.js"></script>
 <script src="./js/bootstrap.js"></script>
 <script src="./js/blocs.js"></script>
 <script src="./js/jqBootstrapValidation.js"></script>
 <script src="./js/formHandler.js"></script>
+</body>
 </html>
